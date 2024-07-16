@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SURE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURE IPRO 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #CC0000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #CC0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            bottom: 0;
+        }
+
+        #poster {
+            max-width: 700px;
+        }
+
+        #figure1 {
+            max-width: 500px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #poster, #figure1 {
+                max-width: 80vw;
+            }
+        }
+
+        
+    </style>
 </head>
-
 <body>
-  <h1>
-    A machine learning/AI model to segment organoids for image analysis
-  </h1>
+    <header>
+        <h1>A machine learning/AI model to segment organoids for image analysis</h1>
+    </header>
+    <main>
+        <h2>Members</h2>
+        <p>Chi Fung</p>
+        <p>Victoria Ludeña</p>
+        <p>Ahbinav Bhushan, PhD</p>
+        <h2>Presentation Poster</h2>
+        <a target="_blank" href="images/poster.png"><img id="poster" src="images/poster.png"></a>
+        <h2>Additional content</h2>
+        <h3>Segmentation Comparison</h3>
+        <img id="figure1" src="images/figure1.png">
+        <h2>References</h2>
+        <ul>
+            <li>
+                Matthews, Jonathan M., Brooke Schuster, Sara Saheb Kashaf, Ping Liu, Rakefet Ben-Yishay, Dana Ishay-Ronen, Evgeny Izumchenko, et al. “Organoid: A Versatile Deep Learning Platform for Tracking and Analysis of Single-Organoid Dynamics.” PLOS Computational Biology 18, no. 11 (November 9, 2022). <a href="https://doi.org/10.1371/journal.pcbi.1010584">https://doi.org/10.1371/journal.pcbi.1010584</a>.
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>SURE IPROGRAM 2024</p>
+    </footer>
 </body>
-
 </html>
